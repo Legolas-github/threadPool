@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestThreadPool {
 	public static void main(String[] args) {
+		system.out.print("123");
 		ScheduledExecutorService service=Executors.newScheduledThreadPool(5);
 		ScheduledFuture<Integer> result=null;
 		try {
